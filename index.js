@@ -20,7 +20,7 @@ btnSubmit.addEventListener("submit", (e) => {
   e.preventDefault();
 
   if (!movieUrl || !movieName) {
-    alert("Both fields are required.");
+    alert("fields are both required.");
     return;
   }
   movies.push({
